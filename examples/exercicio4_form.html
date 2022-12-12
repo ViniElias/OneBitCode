@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro da Liga dos Astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form>
+      Nome: <input type="name" name="nome" required /></p>
+      Email: <input type="email" name="email"/> - Senha: <input type="password" name="senha" required/></p>
+      Data de nascimento: <input type="date" name="data_nasc" required> - Foto: <input type="file" name="foto" required></p>
+      Nacionalidade: <select name="nacionalidade" required>
+        <option value="russo">Russo</option>
+        <option value="americano">Americano</option>
+        <option value="brasileiro">Brasileiro</option>
+      </select> - Gênero: <input type="radio" name="genero" id="genero_f">
+      <label for="genero_f">F</label>
+      <input type="radio" name="genero" id="genero_m">
+      <label for="genero_m">M</label></p>
+      Suas principais qualidades:<br>
+      Inteligência<input type="checkbox" name="inteligencia"> |
+      Resiliência<input type="checkbox" name="resiliencia"> | 
+      Preparo físico<input type="checkbox" name="preparo_fisico"> |
+      Educação<input type="checkbox" name="educacao"> | </p>
+      <textarea rows=8 cols=30 name="motivacao">Por que você gostaria de ser um astronauta?</textarea></p>
+      <input type="submit" value="Criar">
+      </form>
+  </body>
+</html>
