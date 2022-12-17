@@ -1,0 +1,29 @@
+.moon {
+  color: yellow;
+  font-size: 20px;
+}
+
+li {
+  color: #29d6e2;
+}
+
+h1 {
+  font-size: 50px;
+  color: #29d6e2;
+  border: 2px solid #ff0000;
+}
+
+h4 {
+  color: #29d6e2;
+  font-size: 25px;
+}
+
+#europa-text {
+  color: rgb(0, 255, 0);
+}
+
+body {
+  background-image: url("https://wallpaper29.files.wordpress.com/2016/09/jupiter-7-wallpaper-1600x900.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
